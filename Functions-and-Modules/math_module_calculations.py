@@ -1,6 +1,7 @@
 import math
+from typing import Dict
 
-def math_operations(num: float) -> dict:
+def math_operations(num: float) -> Dict[str, float]:
     """Perform square root, natural log, and sine on the given number."""
     if num <= 0:
         raise ValueError("Number must be positive for sqrt and log operations.")
